@@ -1,17 +1,22 @@
+from abc import ABC, abstractmethod
 #Base class
-class Musician():
+class Musician(ABC):
     def __init__(self,name):
         self.name = name
-
+    
+    @abstractmethod
     def __str__(self):
         pass
-
+    
+    @abstractmethod
     def __repr__(self):
         pass
-
+    
+    @abstractmethod
     def get_instrument(self):
         pass
-
+    
+    @abstractmethod
     def play_solo(self):
         pass
 
