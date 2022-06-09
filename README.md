@@ -25,6 +25,4 @@ Navigate to each test file then run it either from the UI of the code editor or 
 No
 - Describe any tests that you did not complete, skipped, etc
 
-Actually, I still have 2 out of 16 test cases are failed, they are about resetting the Band instances.
-Although there is a function to clean the instances with @pytest.fixture(autouse=True) before each test
-but I'm not sure if it's working properly with my project
+I've passed all the tests
