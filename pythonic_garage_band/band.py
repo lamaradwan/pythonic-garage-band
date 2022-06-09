@@ -3,6 +3,19 @@ class Musician():
     def __init__(self,name):
         self.name = name
 
+    def __str__(self):
+        pass
+
+    def __repr__(self):
+        pass
+
+    def get_instrument(self):
+        pass
+
+    def play_solo(self):
+        pass
+
+
 class Guitarist(Musician):
     def __init__(self,name):
         Musician.__init__(self,name)
